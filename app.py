@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from password_strength import check_password_strength
+from my_password_strength import check_password_strength
 
 app = Flask(__name__)
 
